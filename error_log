@@ -1,0 +1,92 @@
+[07-Apr-2022 07:30:36 UTC] PHP Fatal error:  Cannot use Cache as Cache because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Models/User.php on line 11
+[17-Jun-2022 11:13:53 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::store_specialty() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 198
+[20-Jul-2022 11:40:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "Fruitcake\Cors\CorsService" does not exist in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php:833
+Stack trace:
+#0 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(833): ReflectionClass->__construct()
+#1 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#2 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#3 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#4 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#5 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(987): Illuminate\Foundation\Application->make()
+#6 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(907): Illuminate\Container\Container->resolveClass()
+#7 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#8 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#9 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#10 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#11 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#12 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(205): Illuminate\Foundation\Application->make()
+#13 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(179): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#14 /home/inteevql/public_html/mega_sphere/index.php(60): Illuminate\Foundation\Http\Kernel->terminate()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [Fruitcake\Cors\CorsService] does not exist. in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php:835
+Stack trace:
+#0 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#1 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#2 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#3 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#4 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(987): Illuminate\Foundation\Application->make()
+#5 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(907): Illuminate\Container\Container->resolveClass()
+#6 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#7 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#8 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#9 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#10 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#11 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(205): Illuminate\Foundation\Application->make()
+#12 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(179): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#13 /home/inteevql/public_html/mega_sphere/index.php(60): Illuminate\Foundation\Http\Kernel->terminate()
+#14 {main}
+  thrown in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 835
+[20-Jul-2022 11:43:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "Fruitcake\Cors\CorsService" does not exist in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php:833
+Stack trace:
+#0 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(833): ReflectionClass->__construct()
+#1 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#2 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#3 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#4 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#5 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(987): Illuminate\Foundation\Application->make()
+#6 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(907): Illuminate\Container\Container->resolveClass()
+#7 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#8 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#9 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#10 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#11 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#12 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(205): Illuminate\Foundation\Application->make()
+#13 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(179): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#14 /home/inteevql/public_html/mega_sphere/index.php(60): Illuminate\Foundation\Http\Kernel->terminate()
+#15 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [Fruitcake\Cors\CorsService] does not exist. in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php:835
+Stack trace:
+#0 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#1 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#2 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#3 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#4 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(987): Illuminate\Foundation\Application->make()
+#5 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(907): Illuminate\Container\Container->resolveClass()
+#6 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#7 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(714): Illuminate\Container\Container->build()
+#8 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve()
+#9 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php(652): Illuminate\Foundation\Application->resolve()
+#10 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make()
+#11 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(205): Illuminate\Foundation\Application->make()
+#12 /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(179): Illuminate\Foundation\Http\Kernel->terminateMiddleware()
+#13 /home/inteevql/public_html/mega_sphere/index.php(60): Illuminate\Foundation\Http\Kernel->terminate()
+#14 {main}
+  thrown in /home/inteevql/public_html/mega_sphere/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 835
+[21-Jul-2022 06:09:40 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:09:52 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:09:54 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:09:57 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:11:54 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:12:01 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 38
+[21-Jul-2022 06:12:57 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::scoreboard() in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Admin/AdminController.php on line 36
+[22-Jul-2022 12:10:17 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:10:18 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:10:38 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:10:39 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:11:45 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:11:49 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:11:52 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:12:45 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
+[22-Jul-2022 12:14:06 UTC] PHP Fatal error:  Cannot use Mail as Mail because the name is already in use in /home/inteevql/public_html/mega_sphere/app/Http/Controllers/Api/MegaSphereController.php on line 25
